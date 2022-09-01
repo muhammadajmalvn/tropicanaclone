@@ -1,0 +1,364 @@
+.s1
+{
+    background-image: url(https://www.tropicana.com/images/default-source/us-site/desktop/tropheader_desktop.jpg?sfvrsn=4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 60px;
+    margin-top: 5rem;
+    margin-left: 0px;
+    height: 33rem;
+}
+#textleft
+{
+    color: #005d29;
+    font-size: 3.5rem;
+    text-align: left;
+    font-weight:1000;
+    font-family: 'Poppins', 'sans-serif';
+    padding-left: 50px;
+    margin-left: 0px;
+    margin-right: 0%;
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+
+}
+#p1
+{
+    font-family: "FSMatthewWeb-Light";
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.025em;
+    color: #000;
+    text-align: left;
+    margin-top: 0rem;
+    width: 35%;
+    padding-left: 50px;
+    margin-bottom: 0rem;
+}
+#Btn
+{
+    margin-left: 2.5rem;
+    color:white; 
+    background-color: #005d29;
+    border-radius: 0.5rem; 
+    font-size: small;
+}
+@media(max-width :770px)
+{
+
+ #p1
+ {
+    display: none;
+ }
+
+ #Btn
+ {
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: large;
+ }
+}
+
+@media(max-width :365px)
+{
+    .s1
+    {
+        width: 100%;
+    }
+}
+.s2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 17rem;
+    color: #005d29;
+    text-align: center;
+    width: 60%;
+    height: 18rem;
+    margin-bottom: 0%;
+}
+.Item
+{
+    padding-top: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 0%;
+}
+#Btn2
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: large;
+}
+.desc
+{
+    font-size: 0.95rem;
+    font-weight: 300;
+    padding-left: 2rem;
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+.img1
+{
+    background-image: url(https://www.tropicana.com/images/default-source/desktop/tpp20_desktop.png?sfvrsn=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+.img2
+{
+    background-image: url(https://www.tropicana.com/images/default-source/desktop/tpd20_desktop2.png?sfvrsn=10);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.img3
+{
+    background-image: url(https://www.tropicana.com/images/default-source/desktop/t502020_desktop3.png?sfvrsn=2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+@media(max-width :1024px)
+{
+    .s2
+    {
+        width: 100%;;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 36.16vw;
+    }
+}
+
+@media (max-width: 768px)
+{
+  .s2
+  {
+   display: flex;
+   flex-direction: column;
+   row-gap: 3rem;
+   height: 2rem;
+  }
+  .s2.img1
+  {
+    width: 100%;
+  }
+  .s2.img2
+  {
+    width: 100%;
+
+  }
+  .s2.img3
+  {
+    width: 100%; 
+
+  }
+}
+.s3
+{
+    background-image: url(https://www.tropicana.com/images/default-source/us-site/desktop/homepage_banner.jpg?sfvrsn=2);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 0.2%;
+    background-position: center center;
+    padding-top: 10%;
+
+}
+#textright
+{
+    color: #e5570c;
+    font-size: 200%;
+    text-align: left;
+    font-family: 'Poppins', 'sans-serif';
+    margin-bottom: 0%;
+    padding-left: 47%;
+    font-weight: bolder;
+}
+#p2
+{
+    padding-left: 47%;
+    line-height: 150% ;
+    font-weight: lighter;
+    font-size: 120%;
+    text-align: left;
+    width: 100%;
+}
+#learn
+{
+    color: red; 
+    border-color: red;
+    border-radius: 0.5rem; 
+    font-size: small;
+    margin-left: 47%;
+    margin-bottom: 20%;
+}
+@media (max-width :768px)
+{
+    .s3
+    {
+        margin-top: 43rem;
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+   #p2
+   {
+    display: none;
+   }
+ #textright
+ {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    width: 50%;
+ }
+ #learn
+ {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: large;
+ }
+}
+.s4
+{
+    background-image: url(https://www.tropicana.com/images/default-source/us-site/fall-2018/home/desktop/homepage_ourstory_desktop.jpg?sfvrsn=2);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 0%;
+    background-position: top center;
+
+}
+#textleft-1
+{
+    color: yellow;
+    font-size: 300%;
+    text-align: left;
+    font-family: 'Poppins', 'sans-serif';
+    margin-bottom: 0%;
+    margin-left: 2%;
+    font-weight: bolder;
+    width: 70%;
+    line-height: 100%;
+}
+#p3
+{
+    margin-left: 7%;
+    line-height: 150% ;
+    font-weight: lighter;
+    font-size: 100%;
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+#learnmore
+{
+    color: black; 
+    border-color: white;
+    border-radius: 0.5rem; 
+    font-size: small;
+    margin-left: 7%;
+    margin-bottom: 20%;
+}
+@media (max-width :768px)
+{
+    .s4
+    {
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+
+ #textleft-1
+ {
+    font-size: 200%;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+ }
+ #p3
+ {
+    text-align: center;
+    width: 90%;
+ }
+ #learn
+ {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: large;
+    align-items: center;
+}
+}
+footer
+{
+    cursor: pointer;
+    background-color: #f2f2f2; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.Container
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-left: 8rem;
+}
+ul
+{
+    list-style: none;
+}
+.socialmedia
+{
+    display: flex;
+    flex-direction: row;
+}
+#fb
+{
+    padding-right: 10px;
+    width: 3rem;
+    height: 3rem;
+}
+#twi
+{
+    padding-right: 10px;
+    width: 3rem;
+    height: 3rem;
+}
+#insta
+{
+    padding-right: 10px;
+    width: 3rem;
+    height: 3rem;
+}
+#youtube
+{
+    padding-right: 10px;
+    width: 3rem;
+    height: 3rem;
+}
+p
+{
+    font-size: small;
+    width: 70%;
+}
+@media (max-width :1214px)
+{
+  .Container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  p
+  {
+    text-align: center;
+  }
+}
+
